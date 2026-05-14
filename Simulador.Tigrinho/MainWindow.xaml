@@ -9,7 +9,7 @@
         <StackPanel Width="580" VerticalAlignment="Center"> <!-- Grupo Principal -->
             <StackPanel Background="#0f172a" Margin="0 0 0 24"> <!-- Grupo Cabeçalho -->
                 <TextBlock Text="Seu saldo" Foreground="#94A3B8" FontWeight="Bold" FontSize="12" Margin="16 16 16 0" />
-                <TextBlock Text="R$ 0,00" Foreground="#34D399" FontWeight="Bold" FontSize="30" Margin="16 0 16 16" />
+                <TextBlock Text="R$ 0,00" Foreground="#34D399" FontWeight="Bold" FontSize="30" Margin="16 0 16 16" x:Name="tbSaldo" />
             </StackPanel>
 
             <StackPanel Background="#0f172a"> <!-- Grupo aposta -->
